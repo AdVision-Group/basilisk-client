@@ -27,16 +27,16 @@ const NftSection: React.FC = () => {
 				}}
 				description="Fully featured NFT Marketplace. Buy or sell your favorite NFTs, make offers for unlisted NFTs or set royalty fees to support the artist"
 				bgImage={{
-					src: "/assets/ntf-section/content-bg-ilu.svg",
+					src: "/assets/ntf-section/content-bg-ilu-v2.webp",
 					alt: "bg ilu",
 				}}
 				image={{
-					top: "-.5rem",
-					left: "1rem",
+					top: "1rem",
+					left: "3rem",
 					right: "-22rem",
 					bottom: "-12rem",
-					width: "120%",
-					src: "/assets/ntf-section/first-content-ilu-v2-opt.png",
+					width: "110%",
+					src: "/assets/ntf-section/first-content-ilu-v3.webp",
 					alt: "nft ilu",
 				}}
 				cta={{
@@ -55,7 +55,7 @@ const NftSection: React.FC = () => {
 				}}
 				description="Flip your jpegs with style. English, Top Up and Candle auctions - just choose your mode and let the luckiest bidder win."
 				bgImage={{
-					src: "/assets/ntf-section/content-bg-ilu.svg",
+					src: "/assets/ntf-section/content-bg-ilu-v2.webp",
 					alt: "bg ilu",
 				}}
 				image={{
@@ -64,7 +64,7 @@ const NftSection: React.FC = () => {
 					right: 0,
 					bottom: 0,
 					width: "100%",
-					src: "/assets/ntf-section/second-content-ilu-v2.png",
+					src: "/assets/ntf-section/second-content-ilu-v3.webp",
 					alt: "nft ilu 2",
 				}}
 				cta={{
