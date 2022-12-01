@@ -24,15 +24,16 @@ const EarnRewardsSection: React.FC = () => {
 				}}
 				description="Basilisk is a decentralized protocol with a community-first approach. All decisions affecting the protocol are adopted in a democratic process."
 				bgImage={{
-					src: "/assets/earn-rewards-section/content-bg-ilu.svg",
+					src: "/assets/earn-rewards-section/content-bg-ilu-v2.webp",
 					alt: "earn rewards ilu",
 				}}
 				image={{
 					top: "-1rem",
-					left: "0rem",
+					left: "1.5rem",
 					right: "0rem",
-					bottom: "-2rem",
-					src: "/assets/earn-rewards-section/first-content-ilu-v2-opt.png",
+					bottom: "-80%",
+					width: "100%",
+					src: "/assets/earn-rewards-section/first-content-ilu-v3.webp",
 					alt: "earn rewards ilu",
 				}}
 				cta={{

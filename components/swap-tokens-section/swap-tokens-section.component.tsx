@@ -26,16 +26,16 @@ const SwapTokensSection: React.FC = () => {
 				}}
 				description="Permissionless and without relying on centralized exchanges or other intermediaries."
 				bgImage={{
-					src: "/assets/swap-tokens-section/content-bg-ilu.svg",
+					src: "/assets/swap-tokens-section/content-bg-ilu-v2.webp",
 					alt: "swap tokens ilu",
 				}}
 				image={{
 					top: "0rem",
-					left: "-4%",
+					left: "8%",
 					right: "0",
-					bottom: "-50%",
-					width: "100%",
-					src: "/assets/swap-tokens-section/first-ilu-content-v5-min.png",
+					bottom: "-35%",
+					width: "85%",
+					src: "/assets/swap-tokens-section/first-ilu-content-v6.webp",
 					alt: "swap tokens ilu",
 				}}
 				cta={{
@@ -60,7 +60,7 @@ const SwapTokensSection: React.FC = () => {
 				}}
 				description="Support young projects which want to distribute tokens to their community while bootstrapping liquidity."
 				bgImage={{
-					src: "/assets/swap-tokens-section/content-bg-ilu.svg",
+					src: "/assets/swap-tokens-section/content-bg-ilu-v2.webp",
 					alt: "swap tokens ilu 2",
 				}}
 				image={{
@@ -69,7 +69,7 @@ const SwapTokensSection: React.FC = () => {
 					right: "0",
 					bottom: "-40%",
 					width: "110%",
-					src: "/assets/swap-tokens-section/second-ilu-content-v3-min.png",
+					src: "/assets/swap-tokens-section/second-ilu-content-v4.webp",
 					alt: "swap tokens ilu 2",
 				}}
 				cta={{
@@ -92,16 +92,16 @@ const SwapTokensSection: React.FC = () => {
 				}}
 				description="Provide liquidity to selected Snek Swap pools and earn additional incentives on top of rewards from trading fees."
 				bgImage={{
-					src: "/assets/swap-tokens-section/content-bg-ilu.svg",
+					src: "/assets/swap-tokens-section/content-bg-ilu-v2.webp",
 					alt: "earn rewards third ilu",
 				}}
 				image={{
-					top: "-3rem",
-					left: "0rem",
+					top: "0rem",
+					left: "-8%",
 					right: "0rem",
-					bottom: "-6rem",
+					bottom: "-45%",
 					width: "100%",
-					src: "/assets/swap-tokens-section/third-ilu-content-v2-opt.png",
+					src: "/assets/swap-tokens-section/third-ilu-content-v2.webp",
 					alt: "earn rewards third ilu",
 				}}
 				cta={{
