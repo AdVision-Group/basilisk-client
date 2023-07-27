@@ -624,7 +624,7 @@ const LabelA = styled.a`
   font-size: 1.3rem;
   color: ${({ theme }) => theme.footer.navItemColor};
 
-  transitions: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 
   &:hover {
     color: ${({ theme }) => theme.footer.hoverNavItemColor};
@@ -719,7 +719,7 @@ const IconSpan = styled(motion.span)<{ isOpen: boolean }>`
 `
 
 const MobileDropdownMenu = styled(motion.div)`
-  overyflow: hidden;
+  overflow: hidden;
 `
 
 const MobileDropdownList = styled.ul`
@@ -739,7 +739,7 @@ const MobileDropdownMenuItem = styled(motion.li)`
     font-size: 1.3rem;
     color: ${({ theme }) => theme.footer.navItemColor};
 
-    transitions: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 
     &:hover {
       color: ${({ theme }) => theme.footer.hoverNavItemColor};
