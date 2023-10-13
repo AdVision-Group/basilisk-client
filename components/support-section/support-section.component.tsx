@@ -1,10 +1,10 @@
 // Utils
-import styled from "styled-components"
-import { motion, Variants } from "framer-motion"
+import styled from 'styled-components'
+import { motion, Variants } from 'framer-motion'
 
 // Components
-import Image from "../image/image.component"
-import SectionHeading from "../section-heading/section-heading.component"
+import Image from '../image/image.component'
+import SectionHeading from '../section-heading/section-heading.component'
 
 const SupportSection: React.FC = () => {
   const variants: Variants = {
@@ -32,7 +32,7 @@ const SupportSection: React.FC = () => {
       opacity: 1,
       y: 0,
       transition: {
-        type: "spring",
+        type: 'spring',
         mass: 0.1,
         stiffness: 358,
         damping: 60,
@@ -59,32 +59,32 @@ const SupportSection: React.FC = () => {
               <Image
                 src="/assets/support-section/talisman-v2.svg"
                 alt="talisman"
-                width={"100%"}
-                height={"100%"}
+                width={'100%'}
+                height={'100%'}
               />
             </a>
             <a href="https://polkadot.js.org/extension/">
               <Image
                 src="/assets/support-section/polkadot-v2.svg"
                 alt="polkadot"
-                width={"100%"}
-                height={"100%"}
+                width={'100%'}
+                height={'100%'}
               />
             </a>
             <a href="https://subwallet.app/">
               <Image
                 src="/assets/support-section/sub-wallet-v2.png"
                 alt="subwallet"
-                width={"100%"}
-                height={"100%"}
+                width={'100%'}
+                height={'100%'}
               />
             </a>
             <a href="https://www.enkrypt.com/">
               <Image
                 src="/assets/support-section/enkrypt-logo-color-v2.png"
                 alt="enkrypt"
-                width={"100%"}
-                height={"100%"}
+                width={'100%'}
+                height={'100%'}
               />
             </a>
           </PartnersDirectory>
@@ -97,8 +97,16 @@ const SupportSection: React.FC = () => {
               <Image
                 src="/assets/support-section/nova-v3.png"
                 alt="Nova"
-                width={"100%"}
-                height={"100%"}
+                width={'100%'}
+                height={'100%'}
+              />
+            </a>
+            <a href="https://subwallet.app/">
+              <Image
+                src="/assets/support-section/sub-wallet-v2.png"
+                alt="subwallet"
+                width={'100%'}
+                height={'100%'}
               />
             </a>
           </PartnersDirectory>
